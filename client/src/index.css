@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Montserrat", sans-serif !important;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.nav-link{
+  color: black
+}
+
+.navbar-brand{
+  color: black
+}
+
+h1{
+  font-size: 20px !important
+}
+
+.flex-container{
+  display: flex !important;
+}
+
+.btn{
+  background-color: blue !important;
+  color: white !important;
+
+
+}
+
+select{
+  box-shadow: none !important;
+  border-color: black !important;
+}
+
+.fa-plus{
+  color: green;
+  margin: 5px;
+}
+
+.fa-minus{
+  color: red;
+  margin: 5px;
+}
+
+.fa-trash{
+  color: red;
+  margin: 5px;
+}
+
+input{
+  margin-top: 10px !important;
+  box-shadow: none !important;
+}
+
+.text-left{
+
+  text-align: left !important;
+
+}
+
+.adminfunctions{
+  padding: 10px;
+  background-color: rgb(1,1,77);
+}
+
+.adminfunctions li{
+  list-style-type: none !important;
+  display: inline !important;
+  color: white !important;
+}
+
+.adminfunctions li a{
+  color: white !important;
+  padding: 20px;
+  font-weight: bold !important;
+  text-decoration: none !important;
+}
+
+td, th, tr{
+  text-align: left !important;
+}
+
+.thead-dark th {
+  background-color: #343a40 !important;
+  color: white !important;
+}
+
+.oauth-action{
+
+  cursor:  pointer !important;
+  font-size: 24px;
+
+}
+
