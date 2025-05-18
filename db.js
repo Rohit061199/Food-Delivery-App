@@ -1,7 +1,7 @@
 const mongoose=require("mongoose");
 const Pizza = require("./models/pizzaModel");
 
-var mongoURL='mongodb+srv://admin:admin@dbcluster.jfw1v.mongodb.net/delivery';
+var mongoURL='mongodb+srv://username:password@dbcluster.jfw1v.mongodb.net/delivery';
 
 mongoose.connect(mongoURL, {useUnifiedTopology: true, useNewUrlParser:true});
 
